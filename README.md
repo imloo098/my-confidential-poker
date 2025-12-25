@@ -1,15 +1,12 @@
 # Confidential Poker Demo
 
-A 2-player confidential poker prototype using Zama's fhEVM.
+2-player confidential poker using Zama fhEVM (Builder Track December 2025).
 
-Features:
-- Players join the game
-- Submit fully encrypted hole cards (euint8[2] — private on-chain!)
-- Public community cards dealt automatically
+- Private encrypted hole cards (euint8[2])
+- Public community cards
+- Local deploy at 0x5fDB2315678aFecb367f032d93F642f64180aa3
+- Game join tested successfully
 
-Meaningful FHE usage: Hole cards stay encrypted — perfect for hidden hands in on-chain poker games.
+Meaningful FHE: Hole cards stay encrypted on-chain — enables hidden hands in gaming.
 
-Contract: contracts/ConfidentialPoker.sol
-Built for Zama Developer Program Builder Track (December 2025)
-
-Status: Core privacy logic complete. Frontend + hand evaluation next month.
+Frontend + full encryption coming next month.
